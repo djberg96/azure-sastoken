@@ -1,0 +1,15 @@
+= Description
+  A small Ruby library for generating Azure Shared Access Signature (SAS) tokens.
+
+= Synopsis
+  require 'azure/sastoken' 
+
+  token = SasToken.new('http://yourexamplenamespace', 'some-policy', 'xxxyyyzzz')
+
+  p token
+
+= Acknowledgements
+  I heavily borrowed code from the azure-push library from Christian S.
+
+= Author
+  Daniel Berger
